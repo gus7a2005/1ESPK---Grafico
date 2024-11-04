@@ -7,7 +7,7 @@ export default function Exemplo1() {
 
 
   useEffect(()=>{
-    fetch("http://localhost:5000/produtos")
+    fetch("http://localhost:3000/produto")
     .then((res)=>{
       return res.json()
     }).then((res)=>

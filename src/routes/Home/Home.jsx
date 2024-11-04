@@ -18,7 +18,7 @@ export default function Home() {
 
 const handleSubmit=(e)=>{
   e.preventDefault()
-  fetch(`http://localhost:5000/produtos`,{
+  fetch(`http://localhost:3000/produto`,{
     method:"post",
     headers:{
       "Content-Type":"application/json",
